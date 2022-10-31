@@ -1,0 +1,25 @@
+.font1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.font2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    color: #FFFFFF;
+    background-color: #212121;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8c8c8c;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #696969;
+}

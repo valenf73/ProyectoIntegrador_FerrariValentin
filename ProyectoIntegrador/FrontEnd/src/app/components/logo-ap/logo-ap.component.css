@@ -1,0 +1,48 @@
+img {
+    width: 50px;
+}
+
+a, button {
+    margin: 5px;
+}
+
+#logoAP {
+    width: 150px;
+}
+
+.btn {
+    border-width: medium;
+    transition: all .4s linear;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row {
+    margin: 0em;
+    overflow-x: hidden;
+}
+
+@media (max-width: 575px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .redes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logoAP{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+

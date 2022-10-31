@@ -1,0 +1,12 @@
+.row {
+    margin: 0em;
+    overflow-x: hidden;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
